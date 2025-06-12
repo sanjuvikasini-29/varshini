@@ -1,0 +1,63 @@
+.line{
+        background-color: bisque;
+    }
+    #new{
+        font-family: cursive;
+    }
+    h1{
+        background-color: chocolate;
+    }
+
+    .parent p{
+        color:chartreuse;
+    }
+
+    p:hover{
+        color:green;
+        background-color:aquamarine
+    }
+    .border{
+            border: 2px solid black;
+            padding-left: 50px;
+        }
+        .margin{
+            border: 3px solid black;
+            padding: 20px;
+        }
+        .margin2{
+            border: 3px solid black;
+            padding-top: 50px;
+        }
+        .satatic{
+            position: static;
+        }
+        .position{
+            border: 2px solid violet;
+        }
+        .static{
+            position:relative;
+            top: 30px;
+            left: 60px;
+        }
+        .page{
+            height: 100vh;
+        }
+        .fixed{
+            position: fixed;
+            top: 50px;
+        }
+        .sticky{
+            position: sticky;
+            top: 0;
+            font-size: xx-large;
+        }
+         .inline{
+            display:flex;
+         }
+         .iteam
+         {
+            background-color: peachpuff;
+            border: 2px solid brown;
+            height: 100px;
+            width: 100px;
+        } 
