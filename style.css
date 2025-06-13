@@ -40,7 +40,7 @@
             left: 60px;
         }
         .page{
-            height: 100vh;
+            height: 100px;
         }
         .fixed{
             position: fixed;
@@ -48,16 +48,102 @@
         }
         .sticky{
             position: sticky;
-            top: 0;
+            top: 80;
             font-size: xx-large;
         }
          .inline{
             display:flex;
          }
-         .iteam
-         {
+         .flex-container{
+            display: flex;
+         }
+         .iteam{
             background-color: peachpuff;
             border: 2px solid brown;
             height: 100px;
             width: 100px;
         } 
+        .sticky{
+            position:sticky;
+            top: 0;
+        }
+        .inline{
+            display: inline;
+    
+        }
+        .flex-container{
+            display: flex;
+            flex-direction: column;
+            justify-content: colum;
+        justify-content:space-around;
+        }
+        .iteam{
+            background-color: rgb(red, green, blue);
+            border: 2px solid brown;
+            height: 100px;
+            width: 100;
+         }
+         .iteam{
+            flex-grow: 2;
+            flex-shrink: 0;
+         }
+         .navbar{
+            display: flex;
+         }
+         .navbar{
+            display: flex;
+             justify-content: space-around;
+            color: black;
+            background-color: aqua;
+            border-radius: 50px;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        
+         }
+         .container{
+            display: flex;
+            justify-content: space-between;
+            gap: 30px;
+        }
+        .grid-container{
+            display: grid;
+            grid-template-rows: 100px 100px 100px ;
+            grid-template-columns: 100px 100px 100px 100px;
+            gap: 20px;
+
+        }
+        .grid-container div{
+            background-color:aquamarine;
+            border: 2px solid blue;
+        }
+        .item1{
+            grid-column-start: 1;
+            grid-column-end: 5;
+        }
+        .item2{
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+        .item3{
+            grid-column-start:4 ;
+        }
+        .item4{
+            grid-column-start:1 ;
+            grid-column-end: 5;
+        }
+        @media (max-width:720px){
+            .navbar{
+                display: flex;
+                
+            flex-direction: column;
+            }
+        }
+        .container{
+            display:flex;
+            flex-direction: column;
+        }
+
+        
+
+
+
